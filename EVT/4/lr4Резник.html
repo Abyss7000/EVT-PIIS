@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрационная форма конференции</title>
+</head>
+<body>
+
+<form action="/submit_registration" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Личная информация</legend>
+
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="tel">Телефон:</label>
+        <input type="tel" id="tel" name="phone"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Выбор секций конференции</legend>
+
+        <label for="section1">Технологии:</label>
+        <input type="checkbox" id="section1" name="section" value="tech"><br>
+
+        <label for="section2">Маркетинг:</label>
+        <input type="checkbox" id="section2" name="section" value="marketing"><br>
+
+        <label for="section3">Управление проектами:</label>
+        <input type="checkbox" id="section3" name="section" value="management"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Дополнительная информация</legend>
+
+        <label for="file">Прикрепить файл с биографией:</label>
+        <input type="file" id="file" name="file"><br>
+
+        <label for="comments">Комментарии:</label>
+        <textarea id="comments" name="comments"></textarea><br>
+    </fieldset>
+
+    <input type="submit" value="Зарегистрироваться">
+    <input type="reset" value="Сбросить">
+</form>
+
+</body>
+</html>
