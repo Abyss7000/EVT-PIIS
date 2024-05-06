@@ -9,7 +9,7 @@ https://stirring-unicorn-d18ca7.netlify.app/laby.html
 | БГУИР | 2025          | ИПОИТ         |
 
 ## Опыт работы
-- *ГУО "Гимназия № 192 г. Минска"* - **каменщик** ***десятого*** разряда (2004-2004)
+- *"IQVIA"* - **Vector Graphic Designer** ***liberal*** political party (2024-2024)
 
 ## Навыки
 - Программирование на Java и JavaScript
