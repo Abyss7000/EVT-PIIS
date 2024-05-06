@@ -34,4 +34,4 @@ for (int i = 0; i < n-1; i++){
 [Мои проекты](https://stirring-unicorn-d18ca7.netlify.app/laby.html)
 
 ## Изображение
-![Картинка](https://github.com/GM41/INIS-EVT-labs/blob/main/Screenshot%202023-02-24%20003709.png)
+![Картинка](https://github.com/Abyss7000/EVT-PIIS/blob/main/EVT/112212.webp)
