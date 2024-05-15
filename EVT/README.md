@@ -36,4 +36,4 @@ for (int i = 0; i < n-1; i++){
 
 
 ## Изображение
-![Картинка](https://github.com/Abyss7000/EVT-PIIS/blob/main/istockphoto-1017296544-612x612.jpg)
+![Картинка](https://github.com/Abyss7000/EVT-PIIS/blob/main/EVT/istockphoto-1017296544-612x612.jpg)
