@@ -32,6 +32,8 @@ for (int i = 0; i < n-1; i++){
 
 ## Ссылка
 [Мои проекты](https://stirring-unicorn-d18ca7.netlify.app/laby.html)
+[Курсач](https://stellular-crumble-e0ef39.netlify.app)
+
 
 ## Изображение
 ![Картинка](https://github.com/Abyss7000/EVT-PIIS/blob/main/EVT/112212.webp)
