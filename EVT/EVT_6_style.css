@@ -1,0 +1,106 @@
+html {
+    font-family: sans-serif;
+  }
+
+body {
+  margin: 0;
+}
+
+header {
+  background: rgb(52, 206, 142);
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+
+button {
+  margin: 50px;
+  font-size: 20px;
+  background-color: red;
+  animation: vibrate 0.1s linear infinite;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@keyframes vibrate {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-5px); }
+}
+
+button:hover {
+  animation-play-state: paused;
+  background-color: green;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  transition: color 0.3s;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: green;
+  transition: width 0.3s, left 0.3s;
+  transform: translateX(-50%);
+}
+
+a:hover {
+  color: green;
+}
+
+a:hover::after {
+  width: 100%;
+  left: 50%;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  position: absolute;
+  border-radius: 100%;
+  left: 50%; 
+  transform: translateX(-50%); 
+  animation: fall 3s linear infinite;
+}
+
+@keyframes fall {
+  0%{bottom: 100%; left: 50px;}
+  18%{bottom: 50%;}
+  25%{bottom: 0; width: 100px; height: 100px; left: 0;}
+  28%{bottom: 0; width: 120px; height: 50px; left: 0;}
+  31%{bottom: 0; width: 100px; height: 100px; left: 0;}
+  47%{bottom: 50%;}
+  56%{bottom: 0; width: 100px; height: 100px;}
+  59%{bottom: 0; width: 110px; height: 60px;}
+  62%{bottom: 0; width: 100px; height: 100px;}
+  79%{bottom: 25%;}
+  86%{bottom: 0; width: 100px; height: 100px;}
+  88%{bottom: 0; width: 105; height: 70px;}
+  92%{bottom: 0; width: 100px; height: 100px;}
+  97%{bottom: 5%}
+  100%{bottom: 0;}
+}
+
+.floor {
+  height: 10px;
+  width: 100%;
+  background-color: #34495e;
+  position: absolute;
+  bottom: 0;
+}
