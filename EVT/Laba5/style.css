@@ -1,0 +1,76 @@
+body {
+    background-color: #f0f0f0; /* Задаем цвет фона */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Задаем шрифт для всего текста */
+}
+
+.container {
+    width: 1440px; /* Устанавливаем ширину контейнера */
+    margin: 0 auto; /* Центрируем контейнер по горизонтали */
+    background-color: #2d2d2d; /* Распространяем цвет фона на весь экран */
+    padding: 20px; /* Добавляем отступы для контента */
+}
+
+.film {
+    margin-bottom: 40px; /* Добавляем отступ между фильмами */
+    
+}
+
+.film img {
+    width: 300px; /* Устанавливаем размер изображений */
+    border-radius: 10px; /* Закругляем углы изображений */
+    background-image: url('../images/image-background.jpg');
+    display: block; /* Ensures the image behaves as a block element */
+    margin-left: auto; /* Auto margin to center horizontally */
+    margin-right: auto;
+
+}
+
+.description {
+    text-align: justify; /* Выравниваем текст по ширине */
+    text-align: center  ;
+    font-size: 16px; /* Устанавливаем размер текста */
+    color:#f0f0f0;
+    font-family: Dishcek;
+}
+
+a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: rgb(255, 255, 255); /* Задаем цвет ссылок */
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+}
+h1 {
+text-align: center;
+color:#f0f0f0;  
+font-family: Barett Street;
+}
+
+h2:first-child {
+    text-align: center; /* Выравниваем заголовок первого фильма по центру */
+    color:#f0f0f0;
+    font-family: Barett Street;
+}
+
+#film2 .description {
+    text-align: justify; /* Выравниваем текст второго фильма по ширине */
+    font-style: italic; /* Используем курсив для текста второго фильма */
+    text-align: center;
+}
+
+/* Здесь добавьте стили для остальных фильмов */
+
+.bold-text {
+    font-weight: bold; /* Жирное начертание через CSS свойство */
+}
+
+strong {
+    font-weight: bold; /* Жирное начертание через тег <strong> */
+}
+
+.b-text {
+    font-weight: bold; /* Жирное начертание через тег <b> */
+}
